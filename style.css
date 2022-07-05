@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+#header{
+    width: 100%;
+    background:linear-gradient(to top, #131313, transparent),url(./images/donation5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 230px 0;
+}
+
+.head_wrapper{
+    text-align: center;
+    color: white;
+    width: 55%;
+    margin: 0 auto;
+}
+.head_wrapper h1{
+    font-size: 60px;
+}
+.head_wrapper p{
+    font-size: 17px;
+    margin: 35px 0px;
+}
+
+.btn{
+    border: none;
+    padding: 14px 25px;
+    background-color: #FF5959;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 8px;
+}
