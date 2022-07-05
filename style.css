@@ -8,7 +8,9 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-
+section{
+    margin: 50px 0;
+}
 #header{
     width: 100%;
     background:linear-gradient(to top, #131313, transparent),url(./images/donation5.jpg);
@@ -40,4 +42,50 @@ body{
     font-weight: 500;
     cursor: pointer;
     border-radius: 8px;
+}
+
+.donate_wrapper{
+    width: 55%;
+    margin: 0 auto;
+    text-align: center;
+}
+.donate_wrapper h1{
+    font-size: 50px;
+}
+.donate_wrapper p{
+    font-size: 15px ;
+}
+.donate_desc{
+    margin: 40px 0;
+}
+.amount{
+    display: flex;
+    justify-content: space-between;
+}
+.single_amount{
+    padding: 34px 42px;
+    border-radius: 8px;
+    background-color: #eee;
+    font-weight: 500;
+    cursor: pointer;
+}
+.select{
+    border:3px solid #FF5959 ;
+    color: #FF5959;
+}
+.single_amount p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.amount_input{
+    display: block;
+    width: 100%;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 2px solid #eee;
+    outline: none   ;
+    margin: 50px 0;
+    font-size: 20px;
 }
