@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Poppins:wght@100;200;300;400;500;600&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 * {
   padding: 0px;
   margin: 0px;
@@ -130,4 +130,16 @@ section {
     border-top-left-radius: 7px;
     border-bottom-left-radius: 7px;
     font-size: 18px;
+}
+
+#footer{
+    background-color: black;
+    padding: 40px 0;
+}
+.footer_title{
+    font-family: 'Kaushan Script', cursive;
+    color: #ff5959;
+}
+#footer .wrapper p{
+    color: white;
 }
