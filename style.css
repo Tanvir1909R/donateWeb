@@ -49,13 +49,11 @@ section{
     margin: 0 auto;
     text-align: center;
 }
-.donate_wrapper h1{
+.title{
     font-size: 50px;
 }
-.donate_wrapper p{
+.title_desc{
     font-size: 15px ;
-}
-.donate_desc{
     margin: 40px 0;
 }
 .amount{
