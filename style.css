@@ -112,3 +112,22 @@ section {
 .icon img {
   width: 100%;
 }
+.email{
+    width: 100%;
+    background-color: #ff595959;
+    display: flex;
+    justify-content: center;
+    padding: 54px 10px;
+}
+.email .btn{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.email input{
+    width: 300px;
+    border: 1px solid #eee;
+    outline: none;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    font-size: 18px;
+}
